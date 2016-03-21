@@ -15,6 +15,7 @@ public class Main extends AppCompatActivity implements OnLocationUpdatedListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SmartLocation.with(this).location().oneFix().start(this);
+        //we
     }
 
     @Override
